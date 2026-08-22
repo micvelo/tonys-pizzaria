@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --color-teal: #3fb8ad;
+  --color-teal-dark: #2b8f86;
+  --color-yellow: #fedd02;
+  --color-ink: #171a1c;
+  --color-ink-soft: #23282b;
+  --color-cream: #fffaf0;
+  --background: #ffffff;
+  --foreground: #23282b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-teal: var(--color-teal);
+  --color-teal-dark: var(--color-teal-dark);
+  --color-yellow: var(--color-yellow);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-cream: var(--color-cream);
+  --font-sans: var(--font-open-sans);
+  --font-display: var(--font-bungee);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.neon-text {
+  text-shadow:
+    0 0 4px currentColor,
+    0 0 12px currentColor,
+    0 0 28px currentColor;
+}
+
+.bg-diner-lights {
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--color-yellow) 0 10px,
+    transparent 10px 26px
+  );
+}

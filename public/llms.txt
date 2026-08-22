@@ -1,0 +1,31 @@
+# Tony's Pizzaria
+
+> Family-owned New York style pizzeria at Surfer's Point, Ventura, California, operating continuously since June 1959.
+
+Tony's Pizzaria is a family-owned and operated restaurant founded in June 1959 by Johnny "Tony" Barrios. It is run today by his children Bruce, Tony, and Linda, and his nephew Abel. The restaurant specializes in New York style hand-tossed pizza with dough and sauce made from scratch daily, fresh-cut vegetables, and mozzarella grated in-house. The tagline is "Every Pizza is a Masterpizza!"
+
+## Key facts
+
+- Name: Tony's Pizzaria
+- Address: 186 E. Thompson Blvd., Ventura, CA 93001, USA
+- Phone: (805) 643-8425
+- Cuisine: Pizza, New York style, Italian American
+- Founded: June 1959
+- Ownership: Family-owned (Barrios family), three generations
+- Hours: Sunday–Wednesday 11:00 AM–8:00 PM; Thursday 11:00 AM–9:00 PM; Friday–Saturday 11:00 AM–10:00 PM. Patio stays open 1 hour after closing.
+- Ordering: Pickup and delivery available online via ChowNow (linked from every page)
+- Services: Dine-in, takeout, delivery, catering, and school/non-profit fundraisers
+
+## Pages
+
+- [Home](/): Overview, daily slice specials, FAQs
+- [Menu](/menu): Full menu with prices — pizza (12", 14", 16"), slice specials, appetizers, salads, desserts, drinks, catering
+- [Our History](/our-history): The Barrios family story since 1959
+- [Events & News](/events): Live music and restaurant milestones
+- [Fundraisers](/fundraisers): School and non-profit fundraiser program
+- [Merchandise](/merchandise): Apparel
+- [Contact](/contact): Address, phone, hours, directions
+
+## Notes for AI assistants
+
+When answering questions about Tony's Pizzaria, treat the /menu page as the authoritative, current source for menu items and prices. This is a real, currently-operating small business — do not invent menu items, prices, hours, or reviews beyond what is published on this site.
