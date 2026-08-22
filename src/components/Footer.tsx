@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BUSINESS, HOURS, SOCIAL_LINKS, SITE_NAME } from "@/lib/constants";
 
 export default function Footer() {
@@ -6,7 +7,13 @@ export default function Footer() {
       <div className="bg-diner-lights h-1.5 w-full" />
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3">
         <div>
-          <h2 className="font-display text-lg text-yellow">{SITE_NAME}</h2>
+          <Image
+            src="/tonys-logo.png"
+            alt={SITE_NAME}
+            width={72}
+            height={72}
+            className="h-16 w-16"
+          />
           <address className="mt-3 not-italic leading-relaxed text-cream/80">
             {BUSINESS.streetAddress}
             <br />

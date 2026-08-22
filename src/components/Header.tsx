@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { NAV_LINKS, ORDER_LINKS, SITE_NAME } from "@/lib/constants";
@@ -12,9 +13,14 @@ export default function Header() {
       <div className="bg-diner-lights h-1.5 w-full" />
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <span className="font-display text-xl tracking-wide text-yellow neon-text sm:text-2xl">
-            Tony&rsquo;s
-          </span>
+          <Image
+            src="/tonys-logo.png"
+            alt="Tony's Pizzaria, Est. 1959"
+            width={56}
+            height={56}
+            priority
+            className="h-12 w-12 sm:h-14 sm:w-14"
+          />
           <span className="hidden text-sm text-cream/80 sm:inline">Pizzaria &middot; Ventura, CA</span>
         </Link>
 
